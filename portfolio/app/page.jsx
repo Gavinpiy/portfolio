@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 
 import React from "react";
-import Home from "./home";
+import Home from "./home/Home";
 
 export default function Page() {
   return (
