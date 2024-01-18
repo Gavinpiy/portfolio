@@ -8,13 +8,13 @@ const Contact = () => {
       <p className="text-xl">Get in touch.</p>
       <div className="flex gap-4">
         <a
-          href="gavin.yip88@gmail.com"
+          href="mailto:gavin.yip88@gmail.com"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           Email
         </a>
         <a
-          href="www.linkedin.com/in/gavin-yip"
+          href="https://www.linkedin.com/in/gavin-yip"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           LinkedIn
