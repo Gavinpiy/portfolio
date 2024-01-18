@@ -8,7 +8,7 @@ const variants = {
 
 export default function Template({ children }) {
   return (
-    <div>
+    <div className=""> 
       <Header />
       <motion.main
         variants={variants}
