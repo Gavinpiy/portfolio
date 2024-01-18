@@ -1,9 +1,12 @@
+import { Montserrat } from "next/font/google";
 import React from "react";
 import Home from "./home/page";
 
-export default function Page() {
+const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat" });
+
+export default function Page({ Component, pageProps }) {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
+    <main className={`flex min-h-screen flex-col items-center justify-between ${montserrat.variable} font-montserrat`}>
       <Home />
     </main>
   );
