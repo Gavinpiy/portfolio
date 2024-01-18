@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import Header from "@/components/Header";
+import Header from "/components/Header";
 const variants = {
   hidden: { opacity: 0, x: -20 },
   enter: { opacity: 1, x: 0, transition: { duration: 1, ease: "easeInOut" } },
@@ -8,7 +8,7 @@ const variants = {
 
 export default function Template({ children }) {
   return (
-    <div className=""> 
+    <div className="">
       <Header />
       <motion.main
         variants={variants}
