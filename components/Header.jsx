@@ -1,29 +1,28 @@
 import Link from "next/link";
+import { Logo } from "./Logo";
+
+const CustomLink = ({ href, title, className = "" }) => {
+  return (
+    <Link href={href} className={`${className} relative group`}>
+      {title}
+      <span
+        className="h-[1px] inline-block bg-black w-0 absolute left-0 -bottom-0.5
+      group-hover:w-full transition-[width] ease duration-300"
+      ></span>
+    </Link>
+  );
+};
 
 const Header = () => {
   return (
-    <header className="flex bg-green-200 items-center py-4 px-8 justify-between">
-      <nav className="flex just">
-        <Link href="/">
-          <p
-            className="text-xl  text-white hover:underline
-        "
-          >
-            Home
-          </p>
-        </Link>
-        <Link href="/about">
-          <p className="text-xl  text-white hover:underline">About</p>
-        </Link>
-        <Link href="/projects">
-          <p className="text-xl  text-white hover:underline">Projects</p>
-        </Link>
-        <Link href="/contact">
-          <p className="text-xl  text-white hover:underline">Contact</p>
-        </Link>
+    <header className="flex bg-green-200 items-center py-10 px-8 justify-between w-full">
+      <nav className="flex">
+        <CustomLink href="/" title="Home" className="mr-4 " />
+        <CustomLink href="/about" title="About" className="mx-4" />
+        <CustomLink href="/projects" title="Projects " className="mx-4" />
+        <CustomLink href="/contact" title="Contact" className="mx-4" />
       </nav>
 
-      <h2>Logo</h2>
       <nav>
         <Link href="/" target={"blank"}>
           L
@@ -35,6 +34,10 @@ const Header = () => {
           L
         </Link>
       </nav>
+
+      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
+        <Logo />
+      </div>
     </header>
   );
 };
