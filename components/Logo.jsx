@@ -15,8 +15,6 @@ export const Logo = () => {
           backgroundColor: "#5d7564",
           transition: {
             duration: 0.7,
-            repeat: Infinity,
-            repeatType: "reverse",
           },
         }}
       >
