@@ -31,7 +31,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-6 mx-2"
         >
           <LinkedInIcon />
         </motion.a>
@@ -40,7 +40,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-6 mx-2"
         >
           <GithubIcon />
         </motion.a>
@@ -49,7 +49,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-6 mx-2"
         >
           <TwitterIcon />
         </motion.a>

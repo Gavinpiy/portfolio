@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Header from "/components/Header";
+import Footer from "../components/Footer";
 const variants = {
   hidden: { opacity: 0, x: -20 },
   enter: { opacity: 1, x: 0, transition: { duration: 1, ease: "easeInOut" } },
@@ -18,6 +19,7 @@ export default function Template({ children }) {
       >
         {children}
       </motion.main>
+      <Footer />
     </div>
   );
 }

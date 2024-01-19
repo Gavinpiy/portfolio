@@ -18,7 +18,7 @@ export const Logo = () => {
           },
         }}
       >
-        LINK{" "}
+        GVP{" "}
       </MotionLink>
     </div>
   );
