@@ -7,7 +7,7 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
-export default function Page({ Component, pageProps }) {
+function Page({ Component, pageProps }) {
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between font-montserrat`}
@@ -17,3 +17,4 @@ export default function Page({ Component, pageProps }) {
     </main>
   );
 }
+export default Page;
