@@ -10,7 +10,7 @@ const variants = {
 export default function Template({ children }) {
   return (
     <div className="flex flex-col h-screen">
-      <header className="fixed top-0 w-full">
+      <header className="fixed top-0 w-full z-10">
         <Header />
       </header>
       <main className="overflow-y-scroll flex-grow pt-24 pb-20">
