@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Project = () => {
+const Project = ({ title, desc }) => {
   return (
     <section className="flex flex-col items-center w-full py-4 pb-20 bg-gray-200">
       <h1 className="text-5xl font-bold p-4">Projects</h1>
@@ -9,12 +9,17 @@ const Project = () => {
       <div className=" container bg-red-200 flex flex-col justify-center items-center w-full gap-20 p-10">
         <div className="grid grid-cols-10 items-center w-full h-[50vh] bg-green-200 justify-center rounded-lg shadow-xl">
           <div className="relative col-span-6 items-center justify-center border-solid border-black border-2 h-full w-full">
-            <Image src="/placeholder.jpg" layout="fill" objectFit="cover" />
+            <Image
+              src="/placeholder.jpg"
+              alt=""
+              layout="fill"
+              objectFit="cover"
+            />
           </div>
 
           <div className="ml-14 col-span-4">
-            <h1 className="text-lg font-semibold">Project 1</h1>
-            <p className="text-gray-600">Project 1 description</p>
+            <h1 className="text-lg font-semibold">{title}</h1>
+            <p className="text-gray-600">{desc}</p>
           </div>
         </div>
 
@@ -24,7 +29,12 @@ const Project = () => {
             <p className="text-gray-600">Project 2 description</p>
           </div>
           <div className="relative col-span-6 items-center justify-center border-solid border-black border-2 h-full w-full">
-            <Image src="/placeholder.jpg" layout="fill" objectFit="cover" />
+            <Image
+              src="/placeholder.jpg"
+              alt=""
+              layout="fill"
+              objectFit="cover"
+            />
           </div>
         </div>
       </div>
