@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 function Page() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between font-montserrat`}
+      className={`flex flex-col items-center justify-between font-montserrat`}
       style={{ fontFamily: montserrat.variable }}
     >
       <Home />

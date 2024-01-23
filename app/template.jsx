@@ -9,17 +9,23 @@ const variants = {
 
 export default function Template({ children }) {
   return (
-    <div className="">
-      <Header />
-      <motion.main
-        variants={variants}
-        initial="hidden"
-        animate="enter"
-        transition={{ type: "linear" }}
-      >
-        {children}
-      </motion.main>
-      <Footer />
+    <div className="flex flex-col h-screen">
+      <header className="fixed top-0 w-full">
+        <Header />
+      </header>
+      <main className="overflow-y-scroll flex-grow pt-24 pb-20">
+        <motion.main
+          variants={variants}
+          initial="hidden"
+          animate="enter"
+          transition={{ type: "linear" }}
+        >
+          {children}
+        </motion.main>
+      </main>
+      <footer className="fixed bottom-0 w-full">
+        <Footer />
+      </footer>
     </div>
   );
 }

@@ -1,9 +1,6 @@
 const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="flex flex-col items-center pt-20 w-full  h-screen"
-    >
+    <section id="projects" className="flex flex-col items-center w-full">
       <h1 className="text-5xl font-bold p-4">Projects</h1>
       <div className="flex flex-wrap justify-center gap-4 ">
         <div className="flex flex-col items-center justify-center w-64 h-64 bg-green-200">
