@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <section className="flex flex-col items-center w-full pt-4 bg-gray-200">
+    <section className="flex flex-col items-center w-full py-4 pb-20 bg-gray-200">
       <h1 className="text-5xl font-bold p-4">Projects</h1>
 
       <div className=" container bg-red-200 flex flex-col justify-center items-center w-full gap-20 p-10">
