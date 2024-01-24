@@ -1,23 +1,40 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import data from "./data.json";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Project = ({ project, index }) => {
   return (
     <div className="grid grid-cols-10 items-center w-full h-[60vh] bg-green-200 justify-center rounded-lg shadow-xl">
       {index % 2 === 0 ? (
         <>
-          <div className="relative col-span-6 items-center justify-center border-solid border-black border-2 h-full w-full">
-            <Image
-              src={project.url ? project.url : "/images/placeholder.png"}
-              alt={project.alt}
-              layout="fill"
-              objectFit="cover"
-              rounded="lg"
-            />
+          <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
+            <motion.div
+              className="flex justify-center items-center"
+              whileHover={{ scale: 1.05 }}
+            >
+              <Link href={project.deployed || "#"}>
+                <img
+                  src={project.url ? project.url : "/images/placeholder.png"}
+                  alt={project.alt}
+                  height="600"
+                  width="600"
+                  style={{
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
+                  loading="lazy"
+                  className="rounded-lg"
+                />
+              </Link>
+            </motion.div>
           </div>
-          <div className="ml-14 col-span-4">
-            <h1 className="text-lg font-semibold">{project.title}</h1>
+          <div className="col-span-4">
+            <h1 className="text-lg font-semibold underline">{project.title}</h1>
+
+            <br></br>
             <p className="text-gray-600 pr-5">{project.description}</p>
           </div>
         </>
@@ -27,13 +44,28 @@ const Project = ({ project, index }) => {
             <h1 className="text-lg font-semibold">{project.title}</h1>
             <p className="text-gray-600 pr-5">{project.description}</p>
           </div>
-          <div className="relative col-span-6 items-center justify-center border-solid border-black border-2 h-full w-full">
-            <Image
-              src={project.url ? project.url : "/images/placeholder.png"}
-              alt={project.alt}
-              layout="fill"
-              objectFit="cover"
-            />
+          <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
+            <div className="flex justify-center items-center">
+              <motion.div
+                className="flex justify-center items-center"
+                whileHover={{ scale: 1.05 }}
+              >
+                <Link href={project.deployed || "#"}>
+                  <img
+                    src={project.url ? project.url : "/images/placeholder.png"}
+                    alt={project.alt}
+                    height="600"
+                    width="600"
+                    style={{
+                      objectFit: "cover",
+                      borderRadius: "10px",
+                    }}
+                    loading="lazy"
+                    className="rounded-lg"
+                  />
+                </Link>
+              </motion.div>
+            </div>
           </div>
         </>
       )}

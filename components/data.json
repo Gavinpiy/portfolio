@@ -4,7 +4,8 @@
     "url": "/images/Nesst.png",
     "title": "Nesst",
     "description": "Nesst project Nesst project Nesst project Nesst project Nesst project Nesst project ",
-    "alt": "Nesst project"
+    "alt": "Nesst project",
+    "deployed": "https://nesst.vercel.app/"
   },
 
   {
@@ -12,21 +13,24 @@
     "url": "/images/Stickman.png",
     "title": "Stickman",
     "description": "Stickman StickmanStickmanStickman Stickman Stickman Stickman Stickman Stickman ",
-    "alt": "Stickman"
+    "alt": "Stickman",
+    "deployed": "https://stick-man.vercel.app/"
   },
   {
     "id": "2",
     "url": "/images/Revision.png",
     "title": "Revision Tool",
     "description": "Revision Tool Revision Tool Revision ToolRevision Tool Revision Tool Revision Tool ",
-    "alt": "Revision Tool"
+    "alt": "Revision Tool",
+    "deployed": "https://bc15-w8-project-front-end-tech-ti-tens-tau.vercel.app/"
   },
   {
     "id": "4",
     "url": "/images/Dictionary.png",
     "title": "Dictionary",
     "description": "Nesst project Nesst project Nesst project Nesst project Nesst project Nesst project ",
-    "alt": "Dictionary"
+    "alt": "Dictionary",
+    "deployed": "https://bc15-w3-recap-task-fetch-challenge-gavinpiy.vercel.app/"
   },
 
   {
