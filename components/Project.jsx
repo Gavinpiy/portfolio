@@ -7,7 +7,8 @@ import { motion } from "framer-motion";
 
 const Project = ({ project, index }) => {
   return (
-    <div className="grid grid-cols-10 items-center w-full h-[60vh] bg-green-200 justify-center rounded-lg shadow-xl">
+    <div className="grid grid-cols-10 items-center w-full h-[60vh] justify-center rounded-lg shadow-xl"
+    style={{ backgroundColor: '#e6ffe8' }}>
       {index % 2 === 0 ? (
         <>
           <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
@@ -24,6 +25,7 @@ const Project = ({ project, index }) => {
                   style={{
                     objectFit: "cover",
                     borderRadius: "10px",
+                    border: "3px solid gray"
                   }}
                   loading="lazy"
                   className="rounded-lg"
@@ -58,6 +60,7 @@ const Project = ({ project, index }) => {
                     style={{
                       objectFit: "cover",
                       borderRadius: "10px",
+                      border: "3px solid gray",
                     }}
                     loading="lazy"
                     className="rounded-lg"
