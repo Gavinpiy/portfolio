@@ -32,9 +32,8 @@ const Project = ({ project, index }) => {
             </motion.div>
           </div>
           <div className="col-span-4">
-            <h1 className="text-lg font-semibold underline">{project.title}</h1>
+            <h1 className="text-lg font-semibold">{project.title}</h1>
 
-            <br></br>
             <p className="text-gray-600 pr-5">{project.description}</p>
           </div>
         </>

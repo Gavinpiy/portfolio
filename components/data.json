@@ -3,7 +3,7 @@
     "id": "1",
     "url": "/images/Nesst.png",
     "title": "Nesst",
-    "description": "Nesst project Nesst project Nesst project Nesst project Nesst project Nesst project ",
+    "description": "Four week project to develop a property rental platform with an emphasis on community. We worked with stakeholders to bring their vision to life. The app was created with NextJS and includes realtime messaging to allow users to communicate with each other. ",
     "alt": "Nesst project",
     "deployed": "https://nesst.vercel.app/"
   },
@@ -12,7 +12,7 @@
     "id": "3",
     "url": "/images/Stickman.png",
     "title": "Stickman",
-    "description": "Stickman StickmanStickmanStickman Stickman Stickman Stickman Stickman Stickman ",
+    "description": "A simple app built with JavaScript, HTML and CSS. The app allows users to change the height and weight of the stickman with some hidden easter eggs.",
     "alt": "Stickman",
     "deployed": "https://stick-man.vercel.app/"
   },

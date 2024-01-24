@@ -11,7 +11,7 @@ export const Logo = () => {
         href="/"
         className="w-16 h-16 items-center flex justify-center rounded-full bg-white font-bold text-2xl"
         whileHover={{
-          scale: 1.3,
+          scale: 1.1,
           backgroundColor: "#5d7564",
           transition: {
             duration: 0.7,
