@@ -13,6 +13,7 @@ const Project = ({ project, index }) => {
               alt={project.alt}
               layout="fill"
               objectFit="cover"
+              rounded="lg"
             />
           </div>
           <div className="ml-14 col-span-4">

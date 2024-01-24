@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "url": "/images/nesst.png",
+    "url": "/images/Nesst.png",
     "title": "Nesst",
     "description": "Nesst project Nesst project Nesst project Nesst project Nesst project Nesst project ",
     "alt": "Nesst project"
@@ -9,21 +9,21 @@
 
   {
     "id": "3",
-    "url": "/images/stickman.png",
+    "url": "/images/Stickman.png",
     "title": "Stickman",
     "description": "Stickman StickmanStickmanStickman Stickman Stickman Stickman Stickman Stickman ",
     "alt": "Stickman"
   },
   {
     "id": "2",
-    "url": "/images/revision.png",
+    "url": "/images/Revision.png",
     "title": "Revision Tool",
     "description": "Revision Tool Revision Tool Revision ToolRevision Tool Revision Tool Revision Tool ",
     "alt": "Revision Tool"
   },
   {
     "id": "4",
-    "url": "/images/dictionary.png",
+    "url": "/images/Dictionary.png",
     "title": "Dictionary",
     "description": "Nesst project Nesst project Nesst project Nesst project Nesst project Nesst project ",
     "alt": "Dictionary"
@@ -31,7 +31,7 @@
 
   {
     "id": "6",
-    "url": "/images/pokemon.png",
+    "url": "/images/Pokemon.png",
     "title": "PokemonCatcher",
     "description": "Stickman StickmanStickmanStickman Stickman Stickman Stickman Stickman Stickman ",
     "alt": "Pokemon"
