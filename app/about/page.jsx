@@ -128,7 +128,7 @@ const About = () => {
           />
         </a>
       </p>
-      <p className="pb-10">Always learning more!</p>
+      <p className="pb-10 sm:pb-20">Always learning more!</p>
     </div>
   );
 };
