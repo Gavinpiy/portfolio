@@ -10,15 +10,15 @@ const Home = () => {
           width={500}
           height={500}
         />
-        <div className="w-2/5 gap-4 flex flex-col">
-          <p>
+        <div className="w-2/5 gap-8 flex flex-col ">
+          <p className="font-semibold">
             Hey there! I'm Gavin, a recent graduate from the School of Code
             bootcamp, and I'm excited to bring my unique blend of skills to the
             world of software development. With a background as a qualified
             pharmacist and a certified personal trainer, my journey has been
             anything but conventional. 💊💪
           </p>
-          <p>
+          <p className="font-semibold">
             It all started when I stumbled upon CS50 videos on Youtube, sparking
             a career change that eventually led me to the School of Code. Now,
             I'm all in, ready to dive into the exciting world of software
@@ -26,10 +26,11 @@ const Home = () => {
             gym, jumping around the badminton court, and occasionally taking a
             tumble off boulders. 🏋️‍♂️🏸🧗‍♂️
           </p>
-          <p>
+          <p className="font-semibold">
             Please feel free to explore some of my projects and have a browse
             through my website! 🚀
           </p>
+          <p className="text-xs justify-end flex ">As you might notice, I'm still honing my UI/UX skills.</p>
         </div>
       </main>
     </>
