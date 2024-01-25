@@ -1,8 +1,8 @@
 const About = () => {
   return (
-    <div className=" flex flex-col justify-center items-center flex-wrap gap-4 w-full font-montserrat">
+    <div className=" flex flex-col justify-center items-center flex-wrap gap-4 w-full h-full pt-12 font-montserrat">
       <h1 className="font-semibold">About Me</h1>
-      <p className="flex justify-center ">
+      <p className="flex justify-center px-8">
         I earned my Master's in Pharmacy from King's College London and worked
         as a pharmacist at UCL Hospital during the pandemic. Seeking a career
         change, I initially considered becoming a personal trainer and obtained
@@ -14,7 +14,7 @@ const About = () => {
       </p>
       <h2 className="font-semibold">Technologies and Tools</h2>
 
-      <p className="grid grid-cols-4 items-center gap-10">
+      <p className="grid grid-cols-4 items-center gap-10 px-8">
         <a
           href="https://www.typescriptlang.org/"
           target="_blank"

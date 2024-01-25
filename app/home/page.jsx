@@ -3,7 +3,7 @@ import AnimateText from "../../components/AnimateText";
 const Home = () => {
   return (
     <>
-      <main className=" p-8 sm:p-8 md:p-18 lg:p-28 flex flex-col md:flex-row justify-center pt-18 items-center h-full font-montserrat sm:gap-10 lg:gap-20">
+      <main className=" p-8 sm:p-8 md:p-18 lg:p-28 flex flex-col md:flex-row justify-center pt-18 items-center h-full font-montserrat sm:gap-10 lg:gap-20 pb-20">
         <Image
           src="/images/placeholder.jpg"
           alt="Picture"
