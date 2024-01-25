@@ -1,8 +1,18 @@
 const About = () => {
   return (
-    <div className="py-20 flex flex-col justify-center items-center flex-wrap gap-4 w-full font-montserrat">
-      <h1>About Me</h1>
-      <h2>Technologies and Tools</h2>
+    <div className="py-10 flex flex-col justify-center items-center flex-wrap gap-4 w-full font-montserrat">
+      <h1 className="font-semibold">About Me</h1>
+      <p className="flex justify-center px-60">
+        I earned my Master's in Pharmacy from King's College London and worked
+        as a pharmacist at UCL Hospital during the pandemic. Seeking a career
+        change, I initially considered becoming a personal trainer and obtained
+        the ACE certification. However, my journey took a turn when I discovered
+        coding. Through research on the Department of Education website, I found
+        the School of Code and decided to apply. Now, after completing a 16-week
+        intensive bootcamp, I have successfully collaborated on two projects
+        with fellow SOC students.
+      </p>
+      <h2 className="font-semibold">Technologies and Tools</h2>
 
       <p className="grid grid-cols-4 items-center gap-10">
         <a
