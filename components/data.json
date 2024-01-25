@@ -12,7 +12,7 @@
     "id": "3",
     "url": "/images/Stickman.png",
     "title": "Stickman",
-    "description": "A simple app built with JavaScript, HTML and CSS. The app allows users to change the height and weight of the stickman with some hidden easter eggs.",
+    "description": "A simple app built with JavaScript, HTML and CSS. The app allows users to change the height and weight of the stickman with some hidden easter eggs. The goal of the app was to help practice dom manipulation in addition to some basic CSS styling.",
     "alt": "Stickman",
     "deployed": "https://stick-man.vercel.app/"
   },
@@ -20,7 +20,7 @@
     "id": "2",
     "url": "/images/Revision.png",
     "title": "Revision Tool",
-    "description": "Revision Tool Revision Tool Revision ToolRevision Tool Revision Tool Revision Tool ",
+    "description": "! week project to create a revision tool for bootcampers. The app was built with JS, HTML, CSS and a custom SQL database API deployed on render. The app also includes score tracker with colour changes with accessibility in mind.",
     "alt": "Revision Tool",
     "deployed": "https://bc15-w8-project-front-end-tech-ti-tens-tau.vercel.app/"
   },

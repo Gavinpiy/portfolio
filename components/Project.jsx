@@ -7,13 +7,15 @@ import { motion } from "framer-motion";
 
 const Project = ({ project, index }) => {
   return (
-    <div className="grid grid-cols-10 items-center w-full h-[60vh] justify-center rounded-lg shadow-xl"
-    style={{ backgroundColor: '#e6ffe8' }}>
+    <div
+      className="flex flex-col lg:grid grid-cols-10 items-center w-full h-[50vh] lg:h-[60vh] justify-center rounded-lg shadow-xl"
+      style={{ backgroundColor: "#e6ffe8" }}
+    >
       {index % 2 === 0 ? (
         <>
-          <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
+          <div className=" lg:relative lg:col-span-6 justify-center lg:h-full w-full flex items-center rounded-lg">
             <motion.div
-              className="flex justify-center items-center"
+              className="flex items-center px-10 flex-col"
               whileHover={{ scale: 1.05 }}
             >
               <Link href={project.deployed || "#"}>
@@ -25,7 +27,7 @@ const Project = ({ project, index }) => {
                   style={{
                     objectFit: "cover",
                     borderRadius: "10px",
-                    border: "3px solid gray"
+                    border: "3px solid gray",
                   }}
                   loading="lazy"
                   className="rounded-lg"
@@ -34,21 +36,21 @@ const Project = ({ project, index }) => {
             </motion.div>
           </div>
           <div className="col-span-4">
-            <h1 className="text-lg font-semibold">{project.title}</h1>
+            <h1 className="text-lg font-semibold px-10 pt-5 ">{project.title}</h1>
 
-            <p className="text-gray-600 pr-5">{project.description}</p>
+            <p className="text-gray-600 px-5">{project.description}</p>
           </div>
         </>
       ) : (
         <>
-          <div className="ml-14 col-span-4">
-            <h1 className="text-lg font-semibold">{project.title}</h1>
-            <p className="text-gray-600 pr-5">{project.description}</p>
+          <div className="lg:ml-14 col-span-4">
+            <h1 className="text-lg font-semibold px-10 pt-5 ">{project.title}</h1>
+            <p className="text-gray-600 px-5 pt-5">{project.description}</p>
           </div>
           <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
             <div className="flex justify-center items-center">
               <motion.div
-                className="flex justify-center items-center"
+                className="flex justify-center items-center px-10"
                 whileHover={{ scale: 1.05 }}
               >
                 <Link href={project.deployed || "#"}>
