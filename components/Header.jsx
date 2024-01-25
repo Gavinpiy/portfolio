@@ -17,15 +17,15 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const Header = () => {
   return (
-    <header className="flex bg-green-200 items-center py-8 px-8 justify-between w-full shadow-md ">
+    <header className="flex bg-green-200 items-center py-4 lg:py-8 px-8 justify-between w-full shadow-md ">
       <nav className="flex">
-        <CustomLink href="/" title="Home" className="mr-4 " />
-        <CustomLink href="/about" title="About" className="mx-4" />
-        <CustomLink href="/projects" title="Projects " className="mx-4" />
-        <CustomLink href="/contact" title="Contact" className="mx-4" />
+        <CustomLink href="/" title="Home" className=" mr-2 lg:mr-4 " />
+        <CustomLink href="/about" title="About" className="mr-2 lg:mx-4" />
+        <CustomLink href="/projects" title="Projects " className="mr-2 lg:mx-4" />
+        <CustomLink href="/contact" title="Contact" className="mr-2 lg:mx-4" />
       </nav>
 
-      <nav className="flex items-center justify-center flex-wrap">
+      <nav className=" flex items-center justify-center flex-wrap">
         <motion.a
           href="https://www.linkedin.com/in/gavin-yip"
           target={"blank"}
@@ -56,7 +56,7 @@ const Header = () => {
       </nav>
 
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
-        <Logo />
+        {/* <Logo /> */}
       </div>
     </header>
   );

@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="py-10 flex flex-col justify-center items-center flex-wrap gap-4 w-full font-montserrat">
+    <div className=" flex flex-col justify-center items-center flex-wrap gap-4 w-full font-montserrat">
       <h1 className="font-semibold">About Me</h1>
       <p className="flex justify-center px-60">
         I earned my Master's in Pharmacy from King's College London and worked

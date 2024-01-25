@@ -13,12 +13,13 @@ export default function Template({ children }) {
       <header className="fixed top-0 w-full z-10">
         <Header />
       </header>
-      <main className="overflow-y-scroll flex-grow pt-20 pb-10 bg-gray-100">
+      <main className="overflow-y-scroll flex-grow pt-20 pb-10 bg-gray-100 md:pt-10 lg:pt-28">
         <motion.main
           variants={variants}
           initial="hidden"
           animate="enter"
           transition={{ type: "linear" }}
+          className="px-4 md:px-2 lg:px-12"
         >
           {children}
         </motion.main>
