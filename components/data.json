@@ -38,6 +38,7 @@
     "url": "/images/Pokemon.png",
     "title": "PokemonCatcher",
     "description": "Another early project to practice using APIs and my first attempt at using react. The app is very simple with just a button for users to click. Once clicked a random pokemon is fetched and the sprite image is displayed.",
-    "alt": "Pokemon"
+    "alt": "Pokemon",
+    "deployed": "https://pokemonreact.vercel.app/"
   }
 ]
