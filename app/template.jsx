@@ -13,7 +13,7 @@ export default function Template({ children }) {
       <header className="fixed top-0 w-full z-10">
         <Header />
       </header>
-      <main className=" pt-14  pb-20 lg:pb-20 bg-gray-100 md:pt-10 lg:pt-28">
+      <main className=" pt-14  pb-20 lg:pb-20 bg-gray-100 md:pt-10 lg:pt-20">
         <motion.main
           variants={variants}
           initial="hidden"
