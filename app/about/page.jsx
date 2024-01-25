@@ -127,8 +127,11 @@ const About = () => {
             alt="Figma"
           />
         </a>
-      </p>
+      </p><p>
+      Always learning more! 
+    </p>
     </div>
+    
   );
 };
 
