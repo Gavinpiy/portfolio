@@ -36,7 +36,9 @@ const Project = ({ project, index }) => {
             </motion.div>
           </div>
           <div className="col-span-4">
-            <h1 className="text-lg font-semibold px-5 pt-5 ">{project.title}</h1>
+            <h1 className="text-lg font-semibold px-5 pt-5 ">
+              {project.title}
+            </h1>
 
             <p className="text-gray-600 px-5">{project.description}</p>
           </div>
@@ -44,8 +46,10 @@ const Project = ({ project, index }) => {
       ) : (
         <>
           <div className="lg:ml-14 col-span-4">
-            <h1 className="text-lg font-semibold px-5 pt-5 ">{project.title}</h1>
-            <p className="text-gray-600 px-5 pt-5">{project.description}</p>
+            <h1 className="text-lg font-semibold px-5 pt-5 ">
+              {project.title}
+            </h1>
+            <p className="text-gray-600 px-5">{project.description}</p>
           </div>
           <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
             <div className="flex justify-center items-center">
