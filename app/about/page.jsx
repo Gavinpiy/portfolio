@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className=" flex flex-col justify-center items-center flex-wrap gap-4 w-full font-montserrat">
       <h1 className="font-semibold">About Me</h1>
-      <p className="flex justify-center px-60">
+      <p className="flex justify-center ">
         I earned my Master's in Pharmacy from King's College London and worked
         as a pharmacist at UCL Hospital during the pandemic. Seeking a career
         change, I initially considered becoming a personal trainer and obtained
