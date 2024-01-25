@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className=" flex flex-col justify-center items-center flex-wrap gap-8 w-full h-full pt-12 font-montserrat">
       <h1 className="font-semibold">About Me</h1>
-      <p className="flex justify-center px-8">
+      <p className="flex justify-center px-8 lg:px-40">
         I earned my Master's in Pharmacy from King's College London and worked
         as a pharmacist at UCL Hospital during the pandemic. Seeking a career
         change, I initially considered becoming a personal trainer and obtained
@@ -128,7 +128,7 @@ const About = () => {
           />
         </a>
       </p>
-      <p className="pb-10 sm:pb-20">Always learning more!</p>
+      <p className="pb-10 sm:pb-20 ">Always learning more!</p>
     </div>
   );
 };
