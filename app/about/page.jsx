@@ -1,10 +1,10 @@
 const About = () => {
   return (
-    <div className="py-20 flex flex-col justify-center items-center gap-4 w-full font-montserrat">
+    <div className="py-20 flex flex-col justify-center items-center flex-wrap gap-4 w-full font-montserrat">
       <h1>About Me</h1>
       <h2>Technologies and Tools</h2>
 
-      <p className="flex gap-8">
+      <p className="grid grid-cols-4 items-center gap-10">
         <a
           href="https://www.typescriptlang.org/"
           target="_blank"
