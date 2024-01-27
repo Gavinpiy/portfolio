@@ -17,7 +17,7 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const Header = () => {
   return (
-    <header className="flex bg-green-200 items-center py-4 lg:py-8 px-8 justify-between w-full shadow-md ">
+    <header className="flex bg-[#4D7EA8] items-center py-4 lg:py-8 px-8 justify-between w-full shadow-md ">
       <nav className="flex">
         <CustomLink href="/" title="Home" className=" mr-2 lg:mr-4 " />
         <CustomLink href="/about" title="About" className="mr-2 lg:mx-4" />
@@ -31,7 +31,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-2"
+          className="w-6 mx-1"
         >
           <LinkedInIcon />
         </motion.a>
@@ -40,7 +40,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-2"
+          className="w-6 mx-1"
         >
           <GithubIcon />
         </motion.a>
@@ -49,7 +49,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-2"
+          className="w-6 mx-1"
         >
           <TwitterIcon />
         </motion.a>
