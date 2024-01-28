@@ -9,7 +9,7 @@ const variants = {
 
 export default function Template({ children }) {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen text-[#272932]">
       <header className="fixed top-0 w-full z-10">
         <Header />
       </header>

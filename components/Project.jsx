@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 const Project = ({ project, index }) => {
   return (
     <div
-      className="flex flex-col lg:grid grid-cols-10 items-center w-full h-[50vh] lg:h-[60vh] justify-center rounded-lg shadow-xl"
-      style={{ backgroundColor: "#e6ffe8" }}
+      className="flex flex-col lg:grid grid-cols-10 items-center w-full h-[50vh] lg:h-[60vh] justify-center rounded-lg shadow-md"
+      style={{ backgroundColor: "" }}
     >
       {index % 2 === 0 ? (
         <>
@@ -27,7 +27,7 @@ const Project = ({ project, index }) => {
                   style={{
                     objectFit: "cover",
                     borderRadius: "10px",
-                    border: "3px solid gray",
+                    dropShadow: "0 0 10px rgba(0,0,0,0.5)",
                   }}
                   loading="lazy"
                   className="rounded-lg"
@@ -66,7 +66,7 @@ const Project = ({ project, index }) => {
                     style={{
                       objectFit: "cover",
                       borderRadius: "10px",
-                      border: "3px solid gray",
+                      dropShadow: "0 0 10px rgba(0,0,0,0.5)"
                     }}
                     loading="lazy"
                     className="rounded-lg"
