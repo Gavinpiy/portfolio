@@ -1,3 +1,4 @@
+import Image from "next/image";
 const About = () => {
   return (
     <div className=" flex flex-col justify-center items-center flex-wrap gap-4 w-full h-full pt-12 font-montserrat">
@@ -133,6 +134,8 @@ const About = () => {
           />
         </a>
       </p>
+
+      <img src="https://www.codewars.com/users/Gavinpiy/badges/small" alt="codewars" width={250} height={50} />
       <p className="pb-10 sm:pb-20 ">Always learning more!</p>
     </div>
   );
