@@ -43,7 +43,7 @@ const Project = ({ project, index }) => {
 
             <p className="text-gray-600 px-5">{project.description}</p>
             <a
-              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out mx-5"
+              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out mx-5 my-2"
               href={project.github}
               target={"blank"}
             >
@@ -59,7 +59,7 @@ const Project = ({ project, index }) => {
             </h1>
             <p className="text-gray-600 px-5">{project.description}</p>
             <a
-              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out mx-5"
+              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out mx-5 my-2"
               href={project.github}
               target={"blank"}
             >
@@ -100,7 +100,7 @@ const Projects = () => {
   return (
     <section className="flex flex-col items-center w-full py-8 bg-[#B6C2D9]">
       <h1 className="text-5xl font-bold ">Projects</h1>
-      <div className="container flex flex-col justify-center items-center w-full gap-20 p-10">
+      <div className="container flex flex-col justify-center items-center w-full gap-20 px-10 pb-10">
         {data.map((project, index) => (
           <Project key={project.id} project={project} index={index} />
         ))}
