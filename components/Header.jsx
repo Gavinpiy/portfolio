@@ -17,12 +17,12 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const Header = () => {
   return (
-    <header className="flex bg-[#4D7EA8] items-center py-4 lg:py-8 px-6 lg:px-10 justify-between w-full shadow-md ">
+    <header className="flex bg-[#4D7EA8] items-center py-4 lg:py-6 px-6 lg:px-10 justify-between w-full shadow-md ">
       <nav className="flex">
-        <CustomLink href="/" title="Home" className=" mr-2 lg:mr-4 " />
-        <CustomLink href="/about" title="About" className="mr-2 lg:mx-4" />
-        <CustomLink href="/projects" title="Projects " className="mr-2 lg:mx-4" />
-        <CustomLink href="/contact" title="Contact" className="mr-2 lg:mx-4" />
+        <CustomLink href="/" title="Home" className=" mr-1 md:mr-2 lg:mr-4 " />
+        <CustomLink href="/about" title="About" className="mr-1 md:mr-2 lg:mx-4" />
+        <CustomLink href="/projects" title="Projects " className="mr-1 md:mr-2 lg:mx-4" />
+        <CustomLink href="/contact" title="Contact" className="mr-1 md:mr-2 lg:mx-4" />
       </nav>
 
       <nav className=" flex items-center justify-center flex-wrap">
@@ -31,7 +31,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-1"
+          className="w-6 mx-1 lg:mx-3 lg:w-8"
         >
           <LinkedInIcon />
         </motion.a>
@@ -40,7 +40,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-1"
+          className="w-6 mx-1 lg:mx-3 lg:w-8"
         >
           <GithubIcon />
         </motion.a>
@@ -49,7 +49,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-1"
+          className="w-6 mx-1 lg:mx-3 lg:w-8"
         >
           <TwitterIcon />
         </motion.a>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import data from "./data.json";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { GithubIcon } from "./icons";
 
 const Project = ({ project, index }) => {
   return (
@@ -41,6 +42,13 @@ const Project = ({ project, index }) => {
             </h1>
 
             <p className="text-gray-600 px-5">{project.description}</p>
+            <a
+              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out mx-5"
+              href={project.github}
+              target={"blank"}
+            >
+              <GithubIcon />
+            </a>
           </div>
         </>
       ) : (
@@ -50,6 +58,13 @@ const Project = ({ project, index }) => {
               {project.title}
             </h1>
             <p className="text-gray-600 px-5">{project.description}</p>
+            <a
+              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out mx-5"
+              href={project.github}
+              target={"blank"}
+            >
+              <GithubIcon />
+            </a>
           </div>
           <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
             <div className="flex justify-center items-center">
@@ -66,7 +81,7 @@ const Project = ({ project, index }) => {
                     style={{
                       objectFit: "cover",
                       borderRadius: "10px",
-                      dropShadow: "0 0 10px rgba(0,0,0,0.5)"
+                      dropShadow: "0 0 10px rgba(0,0,0,0.5)",
                     }}
                     loading="lazy"
                     className="rounded-lg"

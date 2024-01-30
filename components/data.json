@@ -5,7 +5,8 @@
     "title": "Nesst",
     "description": "Four week project to develop a property rental platform with an emphasis on community. We worked with stakeholders to bring their vision to life. The app was created with NextJS and includes realtime messaging to allow users to communicate with each other. ",
     "alt": "Nesst project",
-    "deployed": "https://nesst.vercel.app/"
+    "deployed": "https://nesst.vercel.app/",
+    "github": "https://github.com/tplatt92/nesst"
   },
 
   {
@@ -14,7 +15,8 @@
     "title": "Stickman",
     "description": "A simple app built with JavaScript, HTML and CSS. The app allows users to change the height and weight of the stickman with some hidden easter eggs. The goal of the app was to help practice dom manipulation in addition to some basic CSS styling.",
     "alt": "Stickman",
-    "deployed": "https://stick-man.vercel.app/"
+    "deployed": "https://stick-man.vercel.app/",
+    "github": "https://github.com/Gavinpiy/StickMan"
   },
   {
     "id": "2",
@@ -22,7 +24,8 @@
     "title": "Revision Tool",
     "description": "One week project to create a revision tool for bootcampers. The app was built with JS, HTML, CSS and a custom SQL database API deployed on render. The app also includes score tracker with colour changes with accessibility in mind.",
     "alt": "Revision Tool",
-    "deployed": "https://bc15-w8-project-front-end-tech-ti-tens-tau.vercel.app/"
+    "deployed": "https://bc15-w8-project-front-end-tech-ti-tens-tau.vercel.app/",
+    "github": "https://github.com/SchoolOfCode/bc15-w8-project-front-end-tech-ti-tens"
   },
   {
     "id": "4",
@@ -30,7 +33,9 @@
     "title": "Dictionary",
     "description": "A very early project to practice using APIs. The app was built with JS, HTML and CSS. The app allows users to search for a word and returns the definition. This project helped with practising fetching and processing some JSON data.",
     "alt": "Dictionary",
-    "deployed": "https://bc15-w3-recap-task-fetch-challenge-gavinpiy.vercel.app/"
+    "deployed": "https://bc15-w3-recap-task-fetch-challenge-gavinpiy.vercel.app/",
+    "github": "https://github.com/SchoolOfCode/bc15-w3-recap-task-fetch-challenge-Gavinpiy"
+    
   },
 
   {
@@ -39,6 +44,7 @@
     "title": "PokemonCatcher",
     "description": "Another early project to practice using APIs and my first attempt at using react. The app is very simple with just a button for users to click. Once clicked a random pokemon is fetched and the sprite image is displayed.",
     "alt": "Pokemon",
-    "deployed": "https://pokemonreact.vercel.app/"
+    "deployed": "https://pokemonreact.vercel.app/",
+    "github": "https://github.com/Gavinpiy/pokemonreact"
   }
 ]
