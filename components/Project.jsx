@@ -4,7 +4,7 @@ import Image from "next/image";
 import data from "./data.json";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { GithubIcon } from "./icons";
+import { GithubIcon } from "./Icons";
 
 const Project = ({ project, index }) => {
   return (
