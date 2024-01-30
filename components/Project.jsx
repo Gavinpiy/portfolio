@@ -4,7 +4,7 @@ import Image from "next/image";
 import data from "./data.json";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { GithubIcon } from "./Icons";
+import { GithubIcon, LinkArrow } from "./Icons";
 
 const Project = ({ project, index }) => {
   return (
@@ -42,13 +42,22 @@ const Project = ({ project, index }) => {
             </h1>
 
             <p className="text-gray-600 px-5">{project.description}</p>
-            <a
-              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out mx-5 my-2"
-              href={project.github}
-              target={"blank"}
-            >
-              <GithubIcon />
-            </a>
+            <div className="flex mx-5 my-2 gap-2">
+              <a
+                className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out "
+                href={project.github}
+                target={"blank"}
+              >
+                <GithubIcon />
+              </a>
+              <a
+                className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out"
+                href={project.deployed}
+                target={"blank"}
+              >
+                <LinkArrow />
+              </a>
+            </div>
           </div>
         </>
       ) : (
@@ -58,13 +67,22 @@ const Project = ({ project, index }) => {
               {project.title}
             </h1>
             <p className="text-gray-600 px-5">{project.description}</p>
-            <a
-              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out mx-5 my-2"
-              href={project.github}
-              target={"blank"}
-            >
-              <GithubIcon />
-            </a>
+            <div className="flex mx-5 my-2 gap-2">
+              <a
+                className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out "
+                href={project.github}
+                target={"blank"}
+              >
+                <GithubIcon />
+              </a>
+              <a
+                className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out"
+                href={project.deployed}
+                target={"blank"}
+              >
+                <LinkArrow />
+              </a>
+            </div>
           </div>
           <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
             <div className="flex justify-center items-center">
