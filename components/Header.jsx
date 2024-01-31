@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Logo } from "./Logo";
-import { LinkedInIcon, GithubIcon, TwitterIcon } from "./Icons";
+import { LinkedInIcon, GithubIcon, TwitterIcon, EmailIcon } from "./Icons";
 import { motion } from "framer-motion";
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -19,10 +19,21 @@ const Header = () => {
   return (
     <header className="flex bg-[#4D7EA8] items-center py-4 lg:py-6 px-6 lg:px-10 justify-between w-full shadow-md ">
       <nav className="flex">
-        <CustomLink href="/" title="Home" className=" mr-2 font-bold lg:mr-4 " />
-        <CustomLink href="/about" title="About" className="mr-2 font-bold lg:mx-4" />
-        <CustomLink href="/projects" title="Projects " className="mr-2 font-bold lg:mx-4" />
-        <CustomLink href="/contact" title="Contact" className="mr-2 font-bold lg:mx-4" />
+        <CustomLink
+          href="/"
+          title="Home"
+          className=" mr-4 font-bold lg:mx-6 "
+        />
+        <CustomLink
+          href="/about"
+          title="About"
+          className="mr-4 font-bold lg:mx-6"
+        />
+        <CustomLink
+          href="/projects"
+          title="Projects "
+          className="mr-4 font-bold lg:mx-6"
+        />
       </nav>
 
       <nav className=" flex items-center justify-center flex-wrap">
@@ -52,6 +63,14 @@ const Header = () => {
           className="w-6 mx-1 lg:mx-3 lg:w-8"
         >
           <TwitterIcon />
+        </motion.a>
+        <motion.a
+          href="mailto:gavin.yip88@gmail.com"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-1 lg:mx-3 lg:w-8"
+        >
+          <EmailIcon />
         </motion.a>
       </nav>
 
