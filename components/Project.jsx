@@ -1,15 +1,23 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { useEffect } from "react";
 import data from "./data.json";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { GithubIcon, LinkArrow } from "./Icons";
+// aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project = ({ project, index }) => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  });
   return (
     <div
-      className="flex flex-col lg:grid grid-cols-10 items-center w-full h-[55vh] lg:h-[60vh] justify-center rounded-lg shadow-md"
+      className="flex  flex-col lg:grid grid-cols-10 items-center w-full h-[55vh] lg:h-[60vh] justify-center rounded-lg shadow-md "
+      data-aos="fade-up"
       style={{ backgroundColor: "" }}
     >
       {index % 2 === 0 ? (
