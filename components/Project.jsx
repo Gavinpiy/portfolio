@@ -9,7 +9,7 @@ import { GithubIcon, LinkArrow } from "./Icons";
 const Project = ({ project, index }) => {
   return (
     <div
-      className="flex flex-col lg:grid grid-cols-10 items-center w-full h-[50vh] lg:h-[60vh] justify-center rounded-lg shadow-md"
+      className="flex flex-col lg:grid grid-cols-10 items-center w-full h-[55vh] lg:h-[60vh] justify-center rounded-lg shadow-md"
       style={{ backgroundColor: "" }}
     >
       {index % 2 === 0 ? (
@@ -117,7 +117,7 @@ const Project = ({ project, index }) => {
 const Projects = () => {
   return (
     <section className="flex flex-col items-center w-full py-8 bg-[#B6C2D9]">
-      <h1 className="text-5xl font-bold ">Projects</h1>
+      <h1 className="text-5xl font-bold pb-5">Projects</h1>
       <div className="container flex flex-col justify-center items-center w-full gap-20 px-10 pb-10">
         {data.map((project, index) => (
           <Project key={project.id} project={project} index={index} />
