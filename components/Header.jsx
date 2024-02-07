@@ -88,13 +88,17 @@ const Header = () => {
           whileTap={{ scale: 1.3 }}
           className="md:hidden lg:hidden"
         >
-          {menuOpen ? <RiCloseCircleLine /> : <AiOutlineMenu />}
+          {menuOpen ? (
+            <RiCloseCircleLine size={25} />
+          ) : (
+            <AiOutlineMenu size={25} />
+          )}
         </motion.button>
       </nav>
       <div
         className={
           menuOpen
-            ? "fixed flex flex-col items-center justify-between right-0 top-20 w-[15%]  bg-gradient-to-b from-[#4A738F] to-[#78A1BD] sm:hidden h-[50%] p10 ease-in duration-500 rounded-xl py-10 shadow-xl"
+            ? "fixed flex flex-col items-center justify-between right-0 top-20 w-[15%]  bg-gradient-to-b from-[#4A738F] to-[#78A1BD] sm:hidden md:hidden h-[50%] p10 ease-in duration-500 rounded-xl py-10 shadow-xl"
             : "fixed flex flex-col items-center justify-between right-[-100%] top-20 h-[50%] p10 ease-in duration-500 rounded-xl py-10 bg-gradient-to-b from-[#4A738F] to-[#78A1BD] "
         }
       >
