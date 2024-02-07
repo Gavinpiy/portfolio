@@ -27,7 +27,7 @@ const Home = () => {
             certified personal trainer, my journey has been anything but
             conventional. 💊💪
           </p>
-          <p className="font-medium">
+          <p className="font-medium pt-4">
             Please feel free to explore some of my projects and have a browse
             through my website! 🚀
           </p>
