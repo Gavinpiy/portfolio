@@ -10,11 +10,11 @@ const Home = () => {
         <div className="rounded-full overflow-hidden inline-block shadow-2xl">
           <Image src="/images/me.png" alt="Picture" width={250} height={250} />
         </div>
-        <div className="w-full md:w-4/5 gap-6 flex flex-col ">
-          <div className="text-2xl font-bold">
+        <div className="w-full md:w-4/5 gap-2 flex flex-col ">
+          <div className="text-2xl font-bold pt-2 ">
             <Typewriter
               options={{
-                strings: ["Hey There! I'm Gavin"],
+                strings: ["Hey There! I'm Gavin,"],
                 autoStart: true,
                 loop: true,
                 delay: 50,
@@ -30,15 +30,14 @@ const Home = () => {
             conventional. 💊💪
           </p>
           <p className="font-medium pt-4">
-            Please feel free to explore some of my projects and have a browse
-            through my website! 🚀
-          </p>
-          <p className="text-xs justify-end flex flex-col pt-10 ">
-            As you might notice, I'm still honing my UI/UX skills...
-            <br />
+            Please feel free to explore some of my{" "}
             <Link href="/projects" title="Projects">
-              Check out what I've been working on! 🛠️
-            </Link>
+              projects
+            </Link>{" "}
+            and have a browse through my website! 🚀
+          </p>
+          <p className="text-xs justify-end flex pt-6 ">
+            As you might notice, I'm still honing my UI/UX skills...
           </p>
         </div>
       </main>
