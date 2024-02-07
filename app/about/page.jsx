@@ -2,7 +2,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className=" flex flex-col justify-center items-center flex-wrap gap-4 w-full h-full pt-12 font-montserrat">
-      <h1 className="font-semibold text-2xl">About Me</h1>
+      <h1 className="font-semibold text-2xl ">About Me</h1>
       <p className="flex justify-center px-14 lg:px-40 text-lg">
         I earned my Master's in Pharmacy from King's College London and worked
         as a pharmacist at UCL Hospital during the pandemic. Seeking a career

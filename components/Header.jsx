@@ -6,7 +6,6 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { RiCloseCircleLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 
-
 const CustomLink = ({ href, title, className = "" }) => {
   return (
     <Link href={href} className={`${className} relative group`}>
@@ -26,7 +25,7 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <header className="flex bg-gradient-to-b from-[#4b6f87] to-[#A5C9DF] items-center py-4 lg:py-6 px-6 lg:px-10 justify-between w-full shadow-md ">
+    <header className="flex bg-gradient-to-b from-[#4b6f87e6] to-[#A5C9DFe6] items-center py-4 lg:py-6 px-6 lg:px-10 justify-between w-full shadow-md ">
       <nav className="flex">
         <CustomLink
           href="/"
@@ -98,8 +97,8 @@ const Header = () => {
       <div
         className={
           menuOpen
-            ? "fixed flex flex-col items-center justify-between right-0 top-20 w-[15%]  bg-gradient-to-b from-[#4A738F] to-[#78A1BD] sm:hidden md:hidden h-[50%] p10 ease-in duration-500 rounded-xl py-10 shadow-xl"
-            : "fixed flex flex-col items-center justify-between right-[-100%] top-20 h-[50%] p10 ease-in duration-500 rounded-xl py-10 bg-gradient-to-b from-[#4A738F] to-[#78A1BD] "
+            ? "fixed flex flex-col items-center justify-between right-0 top-20 w-[15%]  bg-gradient-to-b from-[#4A738Fe6] to-[#78A1BDe6] sm:hidden md:hidden h-[50%] p10 ease-in duration-500 rounded-xl py-10 shadow-xl"
+            : "fixed flex flex-col items-center justify-between right-[-100%] top-20 h-[50%] p10 ease-in duration-500 rounded-xl py-10 bg-gradient-to-b from-[#4A738Fe6] to-[#78A1BDe6] "
         }
       >
         <motion.a
