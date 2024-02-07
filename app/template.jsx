@@ -10,7 +10,7 @@ const variants = {
 export default function Template({ children }) {
   return (
     <div
-      className="flex flex-col h-screen text-[#272932]"
+      className="flex flex-col min-h-screen text-[#272932]"
       style={{
         backgroundImage: `url('/images/background.jpg')`,
         backgroundPosition: "center",
