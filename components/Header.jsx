@@ -92,8 +92,8 @@ const Header = () => {
       <div
         className={
           menuOpen
-            ? "fixed flex flex-col items-center justify-between right-0 top-20 w-[15%]  bg-gradient-to-b from-[#4A738F] to-[#78A1BD] sm:hidden h-[50%] bg p10 ease-in duration-500 rounded-xl py-10 shadow-xl"
-            : "fixed flex flex-col items-center justify-between gap-20 right-[-100%] top-20 h-[50%] p10 ease-in duration-1000 rounded-xl py-10 "
+            ? "fixed flex flex-col items-center justify-between right-0 top-20 w-[15%]  bg-gradient-to-b from-[#4A738F] to-[#78A1BD] sm:hidden h-[50%] p10 ease-in duration-500 rounded-xl py-10 shadow-xl"
+            : "fixed flex flex-col items-center justify-between right-[-100%] top-20 h-[50%] p10 ease-in duration-1000 rounded-xl py-10 "
         }
       >
         <motion.a
