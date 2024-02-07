@@ -123,7 +123,7 @@ const Project = ({ project, index }) => {
 
 const Projects = () => {
   return (
-    <section className="flex flex-col items-center w-full py-8 ">
+    <section className="flex flex-col items-center w-full py-8">
       <h1 className="text-5xl font-bold pb-5">Projects</h1>
       <div className="container flex flex-col justify-center items-center w-full gap-20 px-10 pb-10">
         {data.map((project, index) => (

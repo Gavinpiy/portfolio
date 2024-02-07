@@ -15,7 +15,7 @@ export default function Template({ children }) {
         backgroundImage: `url('/images/background.jpg')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
+        backgroundRepeat: "repeat",
       }}
     >
       <header className="fixed top-0 w-full z-10">
