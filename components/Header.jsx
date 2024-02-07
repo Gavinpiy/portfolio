@@ -3,7 +3,9 @@ import { Logo } from "./Logo";
 import { LinkedInIcon, GithubIcon, TwitterIcon, EmailIcon } from "./Icons";
 import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import { RiCloseCircleLine } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 const CustomLink = ({ href, title, className = "" }) => {
   return (
@@ -80,20 +82,20 @@ const Header = () => {
           <EmailIcon />
         </motion.a>
       </nav>
-      <nav onClick={handleNav} className="md:hidden lg:hidden">
+      <nav onClick={handleNav} className="md:hidden lg:hidden ">
         <motion.button
           whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="md:hidden lg:hidden "
+          whileTap={{ scale: 1.3 }}
+          className="md:hidden lg:hidden"
         >
-          <AiOutlineMenu />
+          {menuOpen ? <RiCloseCircleLine /> : <AiOutlineMenu />}
         </motion.button>
       </nav>
       <div
         className={
           menuOpen
             ? "fixed flex flex-col items-center justify-between right-0 top-20 w-[15%]  bg-gradient-to-b from-[#4A738F] to-[#78A1BD] sm:hidden h-[50%] p10 ease-in duration-500 rounded-xl py-10 shadow-xl"
-            : "fixed flex flex-col items-center justify-between right-[-100%] top-20 h-[50%] p10 ease-in duration-1000 rounded-xl py-10 bg-gradient-to-b from-[#4A738F] to-[#78A1BD] "
+            : "fixed flex flex-col items-center justify-between right-[-100%] top-20 h-[50%] p10 ease-in duration-500 rounded-xl py-10 bg-gradient-to-b from-[#4A738F] to-[#78A1BD] "
         }
       >
         <motion.a
