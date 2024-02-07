@@ -48,7 +48,7 @@ const Project = ({ project, index }) => {
               {project.title}
             </h1>
 
-            <p className="text-gray-600 px-5">{project.description}</p>
+            <p className=" px-5">{project.description}</p>
             <div className="flex mx-5 my-2 gap-2">
               <a
                 className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out "
@@ -73,7 +73,7 @@ const Project = ({ project, index }) => {
             <h1 className="text-lg font-semibold px-5 pt-5 ">
               {project.title}
             </h1>
-            <p className="text-gray-600 px-5">{project.description}</p>
+            <p className=" px-5">{project.description}</p>
             <div className="flex mx-5 my-2 gap-2">
               <a
                 className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out "

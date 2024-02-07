@@ -10,12 +10,13 @@ const variants = {
 export default function Template({ children }) {
   return (
     <div
-      className="flex flex-col min-h-screen text-[#272932]"
+      className="flex flex-col min-h-screen text-black"
       style={{
         backgroundImage: `url('/images/background.jpg')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "repeat",
+        
       }}
     >
       <header className="fixed top-0 w-full z-10">
