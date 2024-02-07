@@ -35,7 +35,7 @@ const Project = ({ project, index }) => {
                   style={{
                     objectFit: "cover",
                     borderRadius: "10px",
-                    dropShadow: "0 0 10px rgba(0,0,0,0.5)",
+                    dropShadow: "0 0 10px rgba(0,0,0,0.9)",
                   }}
                   loading="lazy"
                   className="rounded-lg"
@@ -106,7 +106,7 @@ const Project = ({ project, index }) => {
                     style={{
                       objectFit: "cover",
                       borderRadius: "10px",
-                      dropShadow: "0 0 10px rgba(0,0,0,0.5)",
+                      dropShadow: "0 0 10px rgba(0,0,0,0.9)",
                     }}
                     loading="lazy"
                     className="rounded-lg"
