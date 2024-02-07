@@ -2,7 +2,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className=" flex flex-col justify-center items-center flex-wrap gap-4 w-full h-full pt-12 font-montserrat">
-      <h1 className="font-semibold text-xl">About Me</h1>
+      <h1 className="font-semibold text-2xl">About Me</h1>
       <p className="flex justify-center px-14 lg:px-40 text-lg">
         I earned my Master's in Pharmacy from King's College London and worked
         as a pharmacist at UCL Hospital during the pandemic. Seeking a career
@@ -18,9 +18,9 @@ const About = () => {
         🏋️‍♂️🏸🧗‍♂️
       </p>
 
-      <h2 className="font-semibold pt-6">Technologies and Tools</h2>
+      <h2 className="font-semibold pt-6 text-2xl">Technologies and Tools</h2>
 
-      <p className="grid grid-cols-2 lg:grid-cols-6 items-center gap-10 px-10 pb-6">
+      <p className="grid grid-cols-3 lg:grid-cols-6 items-center gap-10 px-10 pb-6">
         <a
           href="https://www.typescriptlang.org/"
           target="_blank"

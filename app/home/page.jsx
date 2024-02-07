@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -13,9 +14,10 @@ const Home = () => {
           <div className="text-2xl font-bold">
             <Typewriter
               options={{
-                strings: ["Hey There!", "I'm Gavin"],
+                strings: ["Hey There! I'm Gavin"],
                 autoStart: true,
                 loop: true,
+                delay: 50,
               }}
             />
           </div>
@@ -31,8 +33,12 @@ const Home = () => {
             Please feel free to explore some of my projects and have a browse
             through my website! 🚀
           </p>
-          <p className="text-xs justify-end flex ">
-            As you might notice, I'm still honing my UI/UX skills.
+          <p className="text-xs justify-end flex flex-col pt-10 ">
+            As you might notice, I'm still honing my UI/UX skills...
+            <br />
+            <Link href="/projects" title="Projects">
+              Check out what I've been working on! 🛠️
+            </Link>
           </p>
         </div>
       </main>

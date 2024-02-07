@@ -16,14 +16,14 @@ const Project = ({ project, index }) => {
   });
   return (
     <div
-      className="flex  flex-col lg:grid grid-cols-10 items-center w-full h-[55vh] lg:h-[60vh] justify-center rounded-lg shadow-md "
+      className=" flex flex-col lg:grid grid-cols-10 items-center w-full h-[55vh] lg:h-[60vh] justify-center rounded-lg shadow-md "
       data-aos="fade-up"
     >
       {index % 2 === 0 ? (
         <>
           <div className=" lg:relative lg:col-span-6 justify-center lg:h-full w-full flex items-center rounded-lg">
             <motion.div
-              className="flex items-center px-10 flex-col"
+              className="flex items-center px-6 flex-col"
               whileHover={{ scale: 1.05 }}
             >
               <Link href={project.deployed || "#"}>
@@ -44,7 +44,7 @@ const Project = ({ project, index }) => {
             </motion.div>
           </div>
           <div className="col-span-4">
-            <h1 className="text-lg font-semibold px-5 pt-5 ">
+            <h1 className="text-xl font-semibold px-5 pt-5 ">
               {project.title}
             </h1>
 
@@ -70,7 +70,7 @@ const Project = ({ project, index }) => {
       ) : (
         <>
           <div className="lg:ml-14 col-span-4">
-            <h1 className="text-lg font-semibold px-5 pt-5 ">
+            <h1 className="text-xl font-semibold px-5 pt-5 ">
               {project.title}
             </h1>
             <p className=" px-5">{project.description}</p>
@@ -94,7 +94,7 @@ const Project = ({ project, index }) => {
           <div className="relative col-span-6 justify-center h-full w-full flex items-center rounded-lg">
             <div className="flex justify-center items-center">
               <motion.div
-                className="flex justify-center items-center px-10"
+                className="flex justify-center items-center px-6"
                 whileHover={{ scale: 1.05 }}
               >
                 <Link href={project.deployed || "#"}>
@@ -124,7 +124,7 @@ const Project = ({ project, index }) => {
 const Projects = () => {
   return (
     <section className="flex flex-col items-center w-full py-8">
-      <h1 className="text-5xl font-bold pb-5">Projects</h1>
+      <h1 className="text-2xl font-bold pb-5">Projects</h1>
       <div className="container flex flex-col justify-center items-center w-full gap-20 px-10 pb-10">
         {data.map((project, index) => (
           <Project key={project.id} project={project} index={index} />

@@ -5,7 +5,7 @@ import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RiCloseCircleLine } from "react-icons/ri";
 import { motion } from "framer-motion";
-import { useRouter } from "next/router";
+
 
 const CustomLink = ({ href, title, className = "" }) => {
   return (
