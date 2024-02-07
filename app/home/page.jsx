@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
-import AnimateText from "../../components/AnimateText";
+import Typewriter from "typewriter-effect";
+
 const Home = () => {
   return (
     <>
@@ -8,7 +10,15 @@ const Home = () => {
           <Image src="/images/me.png" alt="Picture" width={250} height={250} />
         </div>
         <div className="w-full md:w-4/5 gap-6 flex flex-col ">
-          <p className="font-bold text-xl pt-5">Hey there! I'm Gavin,</p>
+          <p className="text-2xl font-bold"><Typewriter
+            options={{
+              strings: ["Hey There!", "I'm Gavin"],
+              autoStart: true,
+              loop: true,
+        
+            }}
+          /></p>
+          
           <p className="text-xl">
             a recent graduate from the School of Code bootcamp, and I'm excited
             to bring my unique blend of skills to the world of software
