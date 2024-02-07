@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <main className="p-12 sm:p-18 md:p-18 lg:p-28 flex flex-col md:flex-row justify-center pt-18 items-center h-full font-montserrat sm:gap-10 md:gap-12 lg:gap-20 pb-20">
-        <div className="rounded-full overflow-hidden inline-block">
+        <div className="rounded-full overflow-hidden inline-block shadow-2xl">
           <Image src="/images/me.png" alt="Picture" width={250} height={250} />
         </div>
         <div className="w-full md:w-4/5 gap-6 flex flex-col ">

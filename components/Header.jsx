@@ -24,7 +24,7 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <header className="flex bg-gradient-to-b from-[#6A92AC] to-[#A5C9DF] items-center py-4 lg:py-6 px-6 lg:px-10 justify-between w-full shadow-md ">
+    <header className="flex bg-gradient-to-b from-[#4b6f87] to-[#A5C9DF] items-center py-4 lg:py-6 px-6 lg:px-10 justify-between w-full shadow-md ">
       <nav className="flex">
         <CustomLink
           href="/"
