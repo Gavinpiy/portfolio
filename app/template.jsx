@@ -9,11 +9,19 @@ const variants = {
 
 export default function Template({ children }) {
   return (
-    <div className="flex flex-col h-screen text-[#272932]">
+    <div
+      className="flex flex-col h-screen text-[#272932]"
+      style={{
+        backgroundImage: `url('/images/background.jpg')`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <header className="fixed top-0 w-full z-10">
         <Header />
       </header>
-      <main className="flex-grow pt-14 bg-[#B6C2D9] md:pt-10 lg:pt-20">
+      <main className="flex-grow pt-14 md:pt-10 lg:pt-20">
         <motion.main
           variants={variants}
           initial="hidden"
