@@ -22,17 +22,17 @@ const Header = () => {
         <CustomLink
           href="/"
           title="Home"
-          className=" mr-4 font-bold lg:mx-6 "
+          className=" mr-4 font-semibold lg:mx-6 "
         />
         <CustomLink
           href="/about"
           title="About"
-          className="mr-4 font-bold lg:mx-6"
+          className="mr-4 font-semibold lg:mx-6"
         />
         <CustomLink
           href="/projects"
           title="Projects "
-          className="mr-4 font-bold lg:mx-6"
+          className="mr-4 font-semibold lg:mx-6"
         />
       </nav>
 

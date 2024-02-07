@@ -33,7 +33,7 @@ export default function Template({ children }) {
           {children}
         </motion.main>
       </main>
-      <footer className="fixed bottom-0 w-full">
+      <footer className=" w-full">
         <Footer />
       </footer>
     </div>
