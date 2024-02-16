@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { motion } from "framer-motion";
+import { Exercism } from "../../components/Icons";
 const About = () => {
   return (
     <div className=" flex flex-col justify-center items-center flex-wrap gap-4 w-full h-full pt-12 font-montserrat">
@@ -134,14 +135,21 @@ const About = () => {
           />
         </a>
       </p>
-
+      <h2 className="font-semibold pt-2 text-xl">Codewars</h2>
       <img
         src="https://www.codewars.com/users/Gavinpiy/badges/large"
         alt="codewars"
         width={250}
         height={50}
       />
-      <a href="https://exercism.org/profiles/Gavinpiy"> Exercism Profile</a>
+      <a
+        href="https://exercism.org/profiles/Gavinpiy"
+        className="flex items-center justify-center gap-2 flex-col"
+      >
+        <p className="font-semibold pt-2 text-xl">Exercism Profile</p>
+        <Exercism width={50} height={50} />
+      </a>
+
       <p className="pb-10 sm:pb-20 ">Always learning more!</p>
     </div>
   );
