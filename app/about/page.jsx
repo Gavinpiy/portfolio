@@ -141,6 +141,7 @@ const About = () => {
         width={250}
         height={50}
       />
+      <a href="https://exercism.org/profiles/Gavinpiy"> Exercism Profile</a>
       <p className="pb-10 sm:pb-20 ">Always learning more!</p>
     </div>
   );
