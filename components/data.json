@@ -5,7 +5,7 @@
     "title": "RegExpIt",
     "description": "After discovering the power of regular expressions and how confusing it was, I wanted to create a tool to help generate expressions quickly. The app was built with NextJS, utilising OpenAI's GPT to generate the expressions. The user enters a prompt and the app will generate a regular expression, explain it and give an example. The tool is trained to respond for Javascript, but users can also enter their own custom training data.",
     "alt": "RegExpIt",
-    "deployed": "https://reg-873otcx8f-gavin-yips-projects.vercel.app/",
+    "deployed": "https://reg-exp.vercel.app/",
     "github": "https://github.com/Gavinpiy/RegExp"
   },
   {
@@ -44,7 +44,6 @@
     "alt": "Dictionary",
     "deployed": "https://bc15-w3-recap-task-fetch-challenge-gavinpiy.vercel.app/",
     "github": "https://github.com/SchoolOfCode/bc15-w3-recap-task-fetch-challenge-Gavinpiy"
-    
   },
 
   {
