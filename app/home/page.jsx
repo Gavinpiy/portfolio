@@ -1,9 +1,34 @@
 "use client";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import Link from "next/link";
 
+// const Loading = () => {
+//   return (
+//     <div className="flex justify-center items-center h-full">
+//       <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-gray-900"></div>
+//     </div>
+//   );
+// };
 const Home = () => {
+  // const [loading, setLoading] = useState(true);
+
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 1000);
+
+  //   return () => clearTimeout(timer);
+  // }, []);
+
+  // if (loading) {
+  //   return (
+  //     <>
+  //       <Loading />
+  //     </>
+  //   );
+  // }
   return (
     <>
       <main className="p-12 sm:p-18 md:p-18 lg:p-28 flex flex-col md:flex-row justify-center pt-18 items-center h-full font-montserrat sm:gap-10 md:gap-12 lg:gap-20 pb-20">
