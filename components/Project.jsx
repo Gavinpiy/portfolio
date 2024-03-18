@@ -16,12 +16,12 @@ const Project = ({ project, index }) => {
   });
   return (
     <div
-      className=" flex flex-col lg:grid grid-cols-10 items-center w-full h-[75vh] lg:h-[60vh] md:h-[80vh] justify-evenly rounded-lg shadow-md min-w-[340px] text-sm sm:text-base md:text-lg"
+      className=" flex flex-col lg:grid grid-cols-10 items-center w-full h-[75vh] lg:h-[60vh] md:h-[82vh] justify-evenly rounded-lg shadow-md min-w-[340px] text-sm md:text-base lg:text-lg"
       data-aos="fade-up"
     >
       {index % 2 === 0 ? (
         <>
-          <div className=" lg:relative lg:col-span-6 justify-center lg:h-full w-full flex items-center rounded-lg">
+          <div className=" lg:relative lg:col-span-6 justify-center lg:h-full w-full flex items-center rounded-lg ">
             <motion.div
               className="flex items-center px-6 flex-col"
               whileHover={{ scale: 1.05 }}
@@ -30,8 +30,8 @@ const Project = ({ project, index }) => {
                 <img
                   src={project.url ? project.url : "/images/placeholder.png"}
                   alt={project.alt}
-                  height="600"
-                  width="600"
+                  height="560"
+                  width="560"
                   style={{
                     objectFit: "cover",
                     borderRadius: "10px",
@@ -43,7 +43,7 @@ const Project = ({ project, index }) => {
               </Link>
             </motion.div>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4  gap-6 flex flex-col">
             <h1 className="text-xl font-semibold px-5 pt-5 ">
               {project.title}
             </h1>
@@ -69,7 +69,7 @@ const Project = ({ project, index }) => {
         </>
       ) : (
         <>
-          <div className="lg:ml-14 col-span-4">
+          <div className="lg:ml-14 col-span-4 gap-6 flex flex-col">
             <h1 className="text-xl font-semibold px-5 pt-5 ">
               {project.title}
             </h1>
