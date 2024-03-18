@@ -12,7 +12,7 @@
     "id": "1",
     "url": "/images/Nesst.png",
     "title": "Nesst",
-    "description": "Four week project to develop a property rental platform with an emphasis on community. We worked with stakeholders to bring their vision to life. The app was created with NextJS and includes realtime messaging to allow users to communicate with each other. ",
+    "description": "Four week project to develop a property rental platform with an emphasis on community. We worked with stakeholders to bring their vision to life. The app was created with NextJS and includes realtime messaging to allow users to communicate with each other during the accomodation booking experience. ",
     "alt": "Nesst project",
     "deployed": "https://nesst.vercel.app/",
     "github": "https://github.com/tplatt92/nesst"

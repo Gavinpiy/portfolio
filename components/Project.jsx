@@ -16,7 +16,7 @@ const Project = ({ project, index }) => {
   });
   return (
     <div
-      className=" flex flex-col lg:grid grid-cols-10 items-center w-full h-[75vh] lg:h-[60vh] md:h-[82vh] justify-evenly rounded-lg shadow-md min-w-[340px] text-sm md:text-base lg:text-lg"
+      className=" flex flex-col lg:grid grid-cols-10 items-center w-full h-[70vh] lg:h-[60vh] md:h-[75vh] justify-evenly rounded-lg shadow-md min-w-[340px] text-sm md:text-base lg:text-lg"
       data-aos="fade-up"
     >
       {index % 2 === 0 ? (
@@ -44,7 +44,7 @@ const Project = ({ project, index }) => {
             </motion.div>
           </div>
           <div className="col-span-4  gap-6 flex flex-col">
-            <h1 className="text-xl font-semibold px-5 pt-5 ">
+            <h1 className="text-xl font-semibold px-5 pt-5 flex justify-center">
               {project.title}
             </h1>
 
@@ -70,7 +70,7 @@ const Project = ({ project, index }) => {
       ) : (
         <>
           <div className="lg:ml-14 col-span-4 gap-6 flex flex-col">
-            <h1 className="text-xl font-semibold px-5 pt-5 ">
+            <h1 className="text-xl font-semibold px-5 pt-5 flex justify-center">
               {project.title}
             </h1>
             <p className=" px-5">{project.description}</p>
