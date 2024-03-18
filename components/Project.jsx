@@ -16,7 +16,7 @@ const Project = ({ project, index }) => {
   });
   return (
     <div
-      className=" flex flex-col lg:grid grid-cols-10 items-center w-full h-[55vh] lg:h-[60vh] justify-center rounded-lg shadow-md "
+      className=" flex flex-col lg:grid grid-cols-10 items-center w-full h-[75vh] lg:h-[60vh] md:h-[80vh] justify-evenly rounded-lg shadow-md min-w-[340px] text-sm sm:text-base md:text-lg"
       data-aos="fade-up"
     >
       {index % 2 === 0 ? (

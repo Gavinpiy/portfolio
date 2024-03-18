@@ -3,7 +3,7 @@
     "id": "10",
     "url": "/images/RegExp.png",
     "title": "RegExpIt",
-    "description": "After discovering the power of regular expressions and how confusing it was, I wanted to create a tool to help generate expressions quickly. The app was built with NextJS, utilising OpenAI's GPT to generate the expressions. The user enters a prompt and the app will generate a regular expression, explain it and give an example. The tool is trained to respond for Javascript, but users can also enter their own custom training data.",
+    "description": "After discovering the power of regular expressions, I wanted to create a tool to help generate expressions quickly. The app was built with NextJS, utilising OpenAI's GPT to generate the expressions. The user enters a prompt and the app will generate a regular expression, explaination and example. The tool is trained to respond for Javascript.",
     "alt": "RegExpIt",
     "deployed": "https://reg-exp.vercel.app/",
     "github": "https://github.com/Gavinpiy/RegExp"
