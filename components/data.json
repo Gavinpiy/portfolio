@@ -1,5 +1,14 @@
 [
   {
+    "id": "11",
+    "url": "/images/placeholder_project.png",
+    "title": "AI Notes (In Progress)",
+    "description": "My current project is a note taking app with a twist. The app is built with NextJS and utilises OpenAI's GPT for a live chatbot where users can ask the AI questions about any of the saved notes. This app uses TypeScript, Clerk for authentication and MongoDB for the database. The app is still in in progress.",
+    "alt": "AINotes",
+    "deployed": "https://ai-notes-chi.vercel.app/",
+    "github": "https://github.com/Gavinpiy/AiNotes"
+  },
+  {
     "id": "10",
     "url": "/images/RegExp.png",
     "title": "RegExpIt",
