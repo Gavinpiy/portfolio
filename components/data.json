@@ -44,24 +44,6 @@
     "alt": "Revision Tool",
     "deployed": "https://bc15-w8-project-front-end-tech-ti-tens-tau.vercel.app/",
     "github": "https://github.com/SchoolOfCode/bc15-w8-project-front-end-tech-ti-tens"
-  },
-  {
-    "id": "4",
-    "url": "/images/Dictionary.png",
-    "title": "Dictionary",
-    "description": "A very early project to practice using APIs. The app was built with JS, HTML and CSS. The app allows users to search for a word and returns the definition. This project helped with practising fetching and processing some JSON data.",
-    "alt": "Dictionary",
-    "deployed": "https://bc15-w3-recap-task-fetch-challenge-gavinpiy.vercel.app/",
-    "github": "https://github.com/SchoolOfCode/bc15-w3-recap-task-fetch-challenge-Gavinpiy"
-  },
-
-  {
-    "id": "6",
-    "url": "/images/Pokemon.png",
-    "title": "PokemonCatcher",
-    "description": "Another early project to practice using APIs and my first attempt at using react. The app is very simple with just a button for users to click. Once clicked a random pokemon is fetched and the sprite image is displayed.",
-    "alt": "Pokemon",
-    "deployed": "https://pokemonreact.vercel.app/",
-    "github": "https://github.com/Gavinpiy/pokemonreact"
   }
+  
 ]
