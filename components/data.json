@@ -3,7 +3,7 @@
     "id": "11",
     "url": "/images/AiNotes.png",
     "title": "AI Notes",
-    "description": "My current project is a note taking app with a twist. The app is built with NextJS and utilises OpenAI's GPT for a live chatbot where users can ask the AI questions about any of the saved notes. This app uses TypeScript, Clerk for authentication and MongoDB for the database. Pinecone is used for vector embeddings to help with the search functionality and optimisation.",
+    "description": "My current project is a note taking app with a twist. The app is built with NextJS and utilises OpenAI's GPT for a live chatbot where users can ask the AI questions about any of the saved notes. This app uses TypeScript, Clerk for authentication and MongoDB for the database. Pinecone is used for vector embeddings to help with the search functionality and optimisation. Jest is used for unit testing with cypress used for end to end testing.",
     "alt": "AINotes",
     "deployed": "https://ai-notes-chi.vercel.app/",
     "github": "https://github.com/Gavinpiy/AiNotes"
