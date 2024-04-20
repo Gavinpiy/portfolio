@@ -19,7 +19,10 @@ export default function Template({ children }) {
         backgroundImage: `url('/images/background.jpg')`,
         backgroundPosition: "center",
         backgroundSize: "cover",
-        backgroundRepeat: "repeat",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        position: "static",        
+      
       }}
       initial="hidden"
       animate="visible"
