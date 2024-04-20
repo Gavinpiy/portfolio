@@ -63,7 +63,7 @@ const Header = () => {
         >
           <GithubIcon />
         </motion.a>
-        <motion.a
+        {/* <motion.a
           href="https://twitter.com/GavinYip5"
           target={"blank"}
           whileHover={{ y: -2 }}
@@ -71,7 +71,7 @@ const Header = () => {
           className="w-6 mx-1 lg:mx-3 lg:w-8"
         >
           <TwitterIcon />
-        </motion.a>
+        </motion.a> */}
         <motion.a
           href="mailto:gavin.yip88@gmail.com"
           whileHover={{ y: -2 }}
