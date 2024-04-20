@@ -135,25 +135,26 @@ const About = () => {
           />
         </a>
       </p>
-      <h2 className="font-semibold pt-2 text-xl">Codewars</h2>
-      <a target="_blank" href="https://www.codewars.com/users/Gavinpiy">
-        <img
-          src="https://www.codewars.com/users/Gavinpiy/badges/micro"
-          alt="codewars"
-          width={250}
-          height={50}
-        />
-      </a>
-      <a
-        href="https://exercism.org/profiles/Gavinpiy"
-        className="flex items-center justify-center gap-2 flex-col"
-        target="_blank"
-      >
-        <p className="font-semibold pt-2 text-xl">Exercism Profile</p>
-        <Exercism width={50} height={50} />
-      </a>
-
-      <p className="pb-10 sm:pb-20 ">Always learning more!</p>
+      <div className="flex justify-between gap-10">
+        <a target="_blank" href="https://www.codewars.com/users/Gavinpiy">
+          <h2 className="font-semibold text-xl text-center pb-4">Codewars</h2>
+          <img
+            src="https://www.codewars.com/users/Gavinpiy/badges/micro"
+            alt="codewars"
+            width={200}
+            height={50}
+          />
+        </a>
+        <a
+          href="https://exercism.org/profiles/Gavinpiy"
+          className="flex items-center justify-center gap-2 flex-col"
+          target="_blank"
+        >
+          <p className="font-semibold text-xl text-center">Exercism</p>
+          <Exercism width={50} height={50} />
+        </a>
+      </div>
+      <p className="pt-8 ">Always learning more!</p>
     </div>
   );
 };
