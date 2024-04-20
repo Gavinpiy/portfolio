@@ -50,7 +50,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-1 lg:mx-3 lg:w-8"
+          className=" mx-3 w-8"
         >
           <LinkedInIcon />
         </motion.a>
@@ -59,7 +59,7 @@ const Header = () => {
           target={"blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-1 lg:mx-3 lg:w-8"
+          className="w-8 mx-3  "
         >
           <GithubIcon />
         </motion.a>
@@ -76,7 +76,7 @@ const Header = () => {
           href="mailto:gavin.yip88@gmail.com"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-1 lg:mx-3 lg:w-8"
+          className="mx-3 w-8"
         >
           <EmailIcon />
         </motion.a>
