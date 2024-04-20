@@ -36,7 +36,7 @@ const Home = () => {
           <Image src="/images/me.png" alt="Picture" width={250} height={250} />
         </div>
         <div className="w-full md:w-4/5 gap-2 flex flex-col ">
-          <div className="text-2xl font-bold pt-2 ">
+          <div className="text-2xl font-bold pt-16 ">
             <Typewriter
               options={{
                 strings: ["Hey There! I'm Gavin,"],
