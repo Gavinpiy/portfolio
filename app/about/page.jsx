@@ -154,7 +154,7 @@ const About = () => {
           <Exercism width={50} height={50} />
         </a>
       </div>
-      <p className="pt-4 ">Always learning more!</p>
+      <p className="py-4 ">Always learning more!</p>
     </div>
   );
 };
