@@ -6,7 +6,6 @@ import data from "./data.json";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { GithubIcon, LinkArrow } from "./Icons";
-// aos
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -75,7 +74,9 @@ const Project = ({ project, index }) => {
             <h1 className="text-xl font-semibold px-5 pt-5 flex justify-center">
               {project.title}
             </h1>
-            <p className=" px-5 max-h-[280px] overflow-y-scroll">{project.description}</p>
+            <p className=" px-5 max-h-[280px] overflow-y-scroll">
+              {project.description}
+            </p>
             <div className="flex justify-center mx-5 my-2 gap-2">
               <a
                 className="w-8 h-8 lg:w-10 lg:h-10 flex items-center justify-center rounded-full hover:bg-[#4D7EA8] transition duration-300 ease-in-out "
@@ -123,17 +124,4 @@ const Project = ({ project, index }) => {
   );
 };
 
-const Projects = () => {
-  return (
-    <section className="flex flex-col items-center w-full py-8">
-      <h1 className="text-2xl font-bold pb-5 ">Projects</h1>
-      <div className="container flex flex-col justify-center items-center w-full gap-20 px-10 pb-10">
-        {data.map((project, index) => (
-          <Project key={project.id} project={project} index={index} />
-        ))}
-      </div>
-    </section>
-  );
-};
-
-export default Projects;
+export default Project;
