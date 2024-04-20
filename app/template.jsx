@@ -20,9 +20,7 @@ export default function Template({ children }) {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-        position: "static",        
-      
+       
       }}
       initial="hidden"
       animate="visible"
