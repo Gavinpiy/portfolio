@@ -21,7 +21,7 @@ const About = () => {
 
       <h2 className="font-semibold pt-6 text-2xl">Technologies and Tools</h2>
 
-      <p className="grid grid-cols-4 lg:grid-cols-6 items-center gap-10 px-10 pb-6">
+      <p className="grid grid-cols-4 lg:grid-cols-6 items-center justify-center gap-10 px-10 pb-6">
         <a
           href="https://www.typescriptlang.org/"
           target="_blank"
@@ -118,14 +118,7 @@ const About = () => {
             alt="PostgreSQL"
           />
         </a>
-        <a href="https://supabase.io/" target="_blank" rel="noreferrer">
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/supabase-colored.svg"
-            width="75"
-            height="75"
-            alt="Supabase"
-          />
-        </a>
+        
         <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
@@ -166,5 +159,14 @@ const About = () => {
     </div>
   );
 };
+
+{/* <a href="https://supabase.io/" target="_blank" rel="noreferrer">
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/supabase-colored.svg"
+            width="75"
+            height="75"
+            alt="Supabase"
+          />
+        </a> */}
 
 export default About;
